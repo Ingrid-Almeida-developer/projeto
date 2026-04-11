@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+:root {
+	--cor1: #1E3A8A; /*Azul mais forte*/
+        --cor2: #2563EB; /*Azul mais claro*/
+        --cor3: #38BDF8; /*Ciano*/
+        --cor4: #10B981; /*Verde*/
+        --cor5: #F8FAFC; /*Branco (off white)*/
+}
