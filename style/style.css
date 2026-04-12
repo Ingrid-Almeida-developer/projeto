@@ -7,3 +7,7 @@
         --cor4: #10B981; /*Verde*/
         --cor5: #F8FAFC; /*Branco (off white)*/
 }
+
+button {
+	background-color: var(--cor4);
+}
