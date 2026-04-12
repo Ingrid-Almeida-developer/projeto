@@ -9,7 +9,8 @@
 	</head>
 	<body>
 		<header>
-			<h1>Cadastro de empresas</h1>		      </header>
+			<h1>Cadastro de empresas</h1>	
+	    </header>
 		<main>
 			<h2>Preencha seus dados</h2>
 		   	 <form method="POST">
@@ -28,6 +29,29 @@
                    	 		<label for="localizacao">Localização:</label>
                    		        <input type="text" id="localizacao" name="localizacao" required>
               	  		 </fieldset>
+						 <fieldset>
+                            <legend> Em quais tipos de empresas você tem interesse ?</legend>
+                            <label for="robotica">Robótica</label>
+                            <input type="radio" id="robotica" name="interesse" value="robotica">
+                            <label for="automocao">Automação</label>
+                            <input type="radio" id="automocao" name="interesse" value="automocao">
+                            <label for="iot">Internet das coisas</label>
+                            <input type="radio" id="iot" name="interesse" value="iot">
+                            <label for="engenharia_eletrica">Engenharia Elétrica</label>
+                            <input type="radio" id="engenharia_eletrica" name="interesse" value="engenharia_eletrica">
+                            <label for="entreterimento">Entreterimento</label>
+                            <input type="radio" id="entreterimento" name="interesse" value="entreterimento">
+                            <label for="pesquisa">Pesquisa e desenvolvimento</label>
+                            <input type="radio" id="pesquisa" name="interesse" value="pesquisa">
+                            <label for="educacao">Educação</label>
+                            <input type="radio" id="educacao" name="interesse" value="educacao">
+                            <label for="tecnologia">Tecnologia e desenvolvimento de produtos</label>
+                            <input type="radio" id="tecnologia" name="interesse" value="tecnologia">
+                            <label for="saude">Saúde e bem-estar</label>
+                            <input type="radio" id="saude" name="interesse" value="saude">
+                            <label for="outros">Outra</label>
+                            <input type="radio" id="outros" name="interesse" value="outros">
+                         </fieldset>
 				 <button type="submit">Enviar</button>
                		 </form>
 		</main>
